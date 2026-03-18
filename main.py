@@ -36,14 +36,14 @@ FAMILY_MEMBERS = {
     os.environ.get("BN_PHONE", "910000000000"): {
         "name": "BN",
         "medications": [
-            {"time": "07:00", "name": "Morning medications"},
-            {"time": "09:00", "name": "9 AM medications"},
-            {"time": "10:00", "name": "10 AM medications"},
-            {"time": "12:00", "name": "Noon medications"},
-            {"time": "17:00", "name": "5 PM medications"},
-            {"time": "20:00", "name": "8 PM medications"},
-            {"time": "21:00", "name": "9 PM medications"},
-            {"time": "22:00", "name": "10 PM medications"},
+            {"time": "07:00", "name": "Good morning, please take your morning medications (Prazaton). Also, please measure your BP and reply to this WhatsApp message with your reading."},
+            {"time": "09:00", "name": "Hello, this is a reminder for your 9 AM medications (Amlong)"},
+            {"time": "10:00", "name": "Hello, this is a reminder for your 10 AM medications(Arkamin)"},
+            {"time": "12:00", "name": "Hello, this is a reminder for your Noon medications(Prazaton).Also, please measure your BP and reply to this WhatsApp message with your reading."},
+            {"time": "17:00", "name": "Hello, this is a reminder for your 5 PM medications(Prazaton).Also, please measure your BP and reply to this WhatsApp message with your reading."},
+            {"time": "20:00", "name": "Hello, this is a reminder for your 8 PM medications(Arkamin)"},
+            {"time": "21:00", "name": "Hello, this is a reminder for your 9 PM medications(Amlong).Also, please measure your BP and reply to this WhatsApp message with your reading."},
+            {"time": "22:00", "name": "Hello, this is a reminder for your 10 PM medications(Prazaton). Good night, sleep well."},
         ]
     }
 }
